@@ -9,4 +9,28 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	
+	  <servlet>
+    <description></description>
+    <display-name>AngularTest</display-name>
+    <servlet-name>AngularTest</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AngularTest</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  
+  <description>DB2 Test App SpringDemoWeb</description>
+  <resource-ref>
+    <description>DB2 Connection</description>
+    <res-ref-name>jdbc/TestTestDB</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+
+  
+  
 </web-app>
