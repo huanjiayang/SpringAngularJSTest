@@ -12,13 +12,13 @@
 	
 	  <servlet>
     <description></description>
-    <display-name>AngularTest</display-name>
-    <servlet-name>AngularTest</servlet-name>
+    <display-name>MySite</display-name>
+    <servlet-name>MySite</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>AngularTest</servlet-name>
+    <servlet-name>MySite</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
   
